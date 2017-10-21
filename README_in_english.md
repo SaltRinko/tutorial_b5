@@ -1,40 +1,40 @@
-# Practice problem
+# Question
 
-## Preparation before exercise
+## Preparation before question
 
-1. Create git hub account
-2. Register git hub account on local working PC
+1. Create git hub account.
+2. Register git hub account on local working PC.
    ```git config --global user.name "account name"```  
    ```git config --global user.email "Mail address"```  
-3. Create remote repository on git hub
-4. Create a working repository locally (create working directory, move to it and git init)
-5. Registering a remote repository
+3. Create remote repository on git hub.
+4. Create a working repository locally. (create working directory, move to it and execution ```git init```.)  
+5. Registering a remote repository.
    ```git remote add origin <link of remote repository>```  
-6. Create some files in the local repository and reflect them in the remote repository  
+6. Create some files in the local repository and reflect them in the remote repository.  
    (Example)  
    ```touch test.txt (creation of some kind of file)```  
    ```git add .```  
    ```git commit - m "initial commit"```  
    ```git push origin master```  
 
-### After that, each group, please do yourself!
+### After that, each group, please do yourself!!  
 
-## Elementary level problem
+## Basic level question  
 
 ### Conflict festival at Master Branch!!
 
-Each separate editing content dealt to the members is edited on the local master branch and push if you can edit it  
-Complete the file reflecting the editing contents of all the members while resolving the conflict
+Answer the question on the paper.
+Complete the file reflecting the editing contents of all the members while resolving the conflict.
 
-## Development problem
+## Advanced level question
 
 ### Let's memorize various git commands!!
 
 Q 0: Move from master branch to challenge branch  
-Since the challenge branch has already been created, there is no need to create a new branch  
-(The following problems are also done with the challenge branch)  
-The challenge branch accumulates commits with various edits added to the users.csv file  
-Perform the following exercises using those commit logs  
+Since the challenge branch has already been created, there is no need to create a new branch.  
+(The following problems are also done with the challenge branch.)  
+The challenge branch accumulates commits with various edits added to the users.csv file.  
+Perform the following exercises using those commit logs.  
 Tip: It is useful to use git log --graph to see the previous commit logs!!  
 
 Question 1: Cancel the change from the latest commit to the commit of the commit message "Mr. Sato's request" (The commitment of "Mr. Sato's request" is left)  
@@ -57,4 +57,4 @@ Edit contents: add 100 to the value of "Kimura Tsubasa"
 
 Q 8: Merge to master while keeping the commit history on challenge branch  
 
-Good job today! Now you are a Git master!!  
+### Good job today! Now you are a Git master!!  
