@@ -2,16 +2,18 @@
 ## 演習の前準備
 1. git hubのアカウントを作成  
 2. ローカルの作業用PCにgit hubアカウントを登録  
+   ```git config --global user.name "アカウント名"```  
+   ```git config --global user.email "メールアドレス"```  
 3. git hubにリモートリポジトリを作成  
 4. ローカルに作業用リポジトリを作成 (作業用ディレクトリを作成し、そこに移動して```git init```)  
 5. リモートリポジトリの登録  
-   git remote add origin <リモートリポジトリのリンク>
-6. ローカルリポジトリで何かしらのファイルを作成し、リモートリポジトリに反映
-   (例)
-   touch test.txt (何かしらのファイル作成)
-   git add . 
-   git commit -m "initial commit"
-   git push origin master
+   ```git remote add origin <リモートリポジトリのリンク>```  
+6. ローカルリポジトリで何かしらのファイルを作成し、リモートリポジトリに反映  
+   (例)  
+   ```touch test.txt``` (何かしらのファイル作成)  
+   ```git add .```   
+   ```git commit -m "initial commit"```  
+   ```git push origin master```  
 
 ### 以降は各班、各自取り組んでください！
 
