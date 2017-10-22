@@ -23,6 +23,11 @@ reset --hard <佐藤さんの要望のコミットID>
 reset --hard ORIG_HEAD  
 reset --hard HEAD~~~... or reset --hard <森さんの要望のコミットID>  
 
+別解  
+git reflog で過去のコマンドログを見る  
+git reset --hard HEAD@{数字} でコマンドが実行されるまで遡る  
+git reset --hard <森さんの要望のコミットID>  
+
 ### commit --amend
 問3：「森さんの要望」というコミットメッセージを「林さんの要望」に直しなさい
 
